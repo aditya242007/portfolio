@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="" alt="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">skills</a></li>
+                <li><a href="#">certifications</a></li>
+                <li><a href="#">contact</a></li>
+                <i class="ri-arrow-down-double-line" onclick="closemenu()"></i>
+            </ul>
+            <i class="ri-menu-line" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>The Journey starts!</p>
+            <h1>Hi , I'm <span>Aditya</span> <br> from Madhya Pradesh</h1>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="24.jpg" alt="aditya">
+            </div>
+            <div class="about-col2">
+                <h1 class="sub-title">About me !</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi aperiam nulla nisi expedita iusto sunt inventore a hic vero alias delectus, eum iste nihil enim distinctio totam, perspiciatis aliquam odio.</p>
+                
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links active-link" onclick="opentab('experience')">experience</p>
+                    <p class="tab-links active-link" onclick="opentab('education')">education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Software development</span><br>developing softwares</li>
+                        <li><span>Web development</span><br>developing website</li>
+                        <li><span>App development</span><br>developing apps for android/ios</li>
+                    </ul>
+                </div>
+            
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2029</span><br> software developer at microsoft</li>
+                        <li><span>2028</span><br> completed BTECH from lovely professional university</li>
+                        <li><span>2024</span><br> completed +2 from IPS(indore public school)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- sevices -->
+
+<div id="sevices">
+    <div class="container">
+        <h1 class="sub-title">My services </h1>
+        <div class="services-list">
+            <DIV>
+                <i class="ri-code-s-slash-line"></i>
+                <br><br>
+                <h2>Web design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate voluptatum placeat alias aliquam ex saepe tenetur perferendis, possimus in molestias repellendus dolor error illo officiis laborum. Quia possimus qui illum?</p>
+                <a href="#">learn more</a>
+            </DIV>
+            <DIV>
+                <i class="ri-app-store-line"></i> 
+                <br><br>
+                <h2>App design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate voluptatum placeat alias aliquam ex saepe tenetur perferendis, possimus in molestias repellendus dolor error illo officiis laborum. Quia possimus qui illum?</p>
+                <a href="#">learn more</a>
+            </DIV>
+            <DIV>
+                <i class="ri-windows-line"></i> 
+                <br><br>
+                <h2>Software design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate voluptatum placeat alias aliquam ex saepe tenetur perferendis, possimus in molestias repellendus dolor error illo officiis laborum. Quia possimus qui illum?</p>
+                <a href="#">learn more</a>
+            </DIV>
+        </div>
+    </div>
+</div>
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="app.jpg.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, harum?</p>
+                    <a href="#"><i class="ri-external-link-line"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="web.jpg.png" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, harum?</p>
+                    <a href="#"><i class="ri-external-link-line"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="soft.jpg.png" alt="">
+                <div class="layer">
+                    <h3>Online shoping website</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, harum?</p>
+                    <a href="#"><i class="ri-external-link-line"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me </h1>
+                <p><i class="ri-send-plane-fill"></i><a href="mailto:adityakalure237@gmail.com" style="color: white;">adityakalure237@gmail.com</a></p>
+                <p><i class="ri-phone-fill"></i> <a href="tel:+91 9300181178" style="color: white;">+91 9300181178</a></p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/?sk=welcome"><i class="ri-facebook-box-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/aditya-k-136755309/"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href=""><i class="ri-instagram-fill"></i></a>
+                    <a href="https://x.com/adityak24107"><i class="ri-twitter-x-line"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <!-- <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Name" placeholder="Your Name" required> -->
+                    <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn3">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; aditya kalure. Made with <i class="ri-service-fill"></i></p>
+    </div>
+</div>
+<script>
+
+function opentab(tabName) {
+    // Hide all tab contents
+    var contents = document.getElementsByClassName('tab-contents');
+    for (var i = 0; i < contents.length; i++) {
+        contents[i].style.display = 'none';
+    }
+    
+    // Remove active-link class from all tabs
+    var tabs = document.getElementsByClassName('tab-links');
+    for (var i = 0; i < tabs.length; i++) {
+        tabs[i].classList.remove('active-link');
+    }
+    
+    // Show the clicked tab's content
+    document.getElementById(tabName).style.display = 'block';
+    
+    // Add active-link class to the clicked tab
+    event.currentTarget.classList.add('active-link');
+    document.getElementById(tabName).classList.add("active-tab");
+}
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px"; 
+    }
+</script>
+
+</body>
+</html>
